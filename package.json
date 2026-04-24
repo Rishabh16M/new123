@@ -1,0 +1,17 @@
+{
+  "name": "linting-example",
+  "version": "1.0.0",
+  "description": "Example project with linting and build jobs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "echo \"Building the project...\" && exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
